@@ -11,29 +11,29 @@ testcase.json: Example JSON file with input data for testing
 
 testcase2.json: Another JSON file with different input data for testing.
 
-## Running the Code
-   1. Save the JavaScript Code:
-      Save the provided JavaScript code into a file named main_code.js using a text editor like Notepad.
+## How to Run the Code
+
+1. **Save the JavaScript Code**:
+   Save the provided JavaScript code as `main_code.js` using a text editor.
+
+2. **Create Test Case Files**:
+   Create the required JSON files (`testcase.json` and `testcase2.json`) with input data. Example content for `testcase.json`:
+   ```json
+   {
+       "1": {"base": "10", "value": "2"},
+       "2": {"base": "10", "value": "3"},
+       "3": {"base": "10", "value": "5"}
+   }
+3. **Run the Script**:
+   ```bash
+   # Open terminal or command prompt and navigate to the directory containing main_code.js
+   cd path/to/your/directory
+
+   # Run the Node.js script
+   node main_code.js
    
-   2. Create Test Case Files:
-     Create JSON files named testcase.json and testcase2.json with the required input data. Example content for testcase.json:
-  
-{
-    "1": {"base": "10", "value": "2"},
-    "2": {"base": "10", "value": "3"},
-    "3": {"base": "10", "value": "5"}
-}
-
-   3. Run the Code:
-     Open the Command Prompt or Terminal, navigate to the directory containing main_code.js, and execute the script using Node.js
-     node main_code.js
-     
-Ensure that the JSON files (testcase.json and testcase2.json) are in the same directory as main_code.js or adjust the file paths accordingly in the code
-     
-   4. Check the Output:
-
-      The script will output the decoded factors and the calculated constant term c for the given test cases.
-
+4. **View Output**:
+   After running the script, the output will be displayed in the terminal/command prompt. Ensure that the `testcase.json` and other necessary files are in the same directory as `main_code.js`.
 ## Example Output
 For the example testcase.json provided:
 The constant term c is: 3
