@@ -31,7 +31,7 @@ testcase2.json: Another JSON file with different input data for testing.
 
    # Run the Node.js script
    node main_code.js testcase.json
-   mention the testcase you want to run for
+   mention the testcase you want to run 
    
 4. **View Output**:
    After running the script, the output will be displayed in the terminal/command prompt. Ensure that the `testcase.json` and other necessary files are in the same directory as `main_code.js`.
