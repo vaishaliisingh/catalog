@@ -11,13 +11,6 @@ testcase.json: Example JSON file with input data for testing
 
 testcase2.json: Another JSON file with different input data for testing.
 
-## Installation
-1. Clone the Repository:
-   git clone https://github.com/yourusername/yourrepository.git
-   cd yourrepository
-2. Install Node.js:
-   Follow the instructions on nodejs.org to install Node.js if you haven't already.
-
 ## Running the Code
    1. Save the JavaScript Code:
       Save the provided JavaScript code into a file named main_code.js using a text editor like Notepad.
